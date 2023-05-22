@@ -1,0 +1,49 @@
+.transaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 10px 22px 0 10px;
+}
+
+.logo-text {
+    display: flex;
+}
+
+.transaction-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+}
+
+.transaction-text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-name {
+    font-family: 'Roboto-Medium500';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.transaction-account {
+}
+
+.transaction-amount {
+    text-align: end;
+    font-family: 'Roboto-Medium500';
+    font-size: 18px;
+    line-height: 21px;
+    color: #2bb272;
+}
+
+.transaction-date {
+}

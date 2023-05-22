@@ -1,0 +1,14 @@
+.home-wrapper {
+}
+
+.home-div {
+    width: 414px;
+    height: 896px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+    padding: 46px 30px 43px 30px;
+    background: #ffffff;
+    border-radius: 30px;
+}

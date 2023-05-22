@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Roboto-Bold700';
+    src: url('./fonts/Roboto-Bold700.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium500';
+    src: url('./fonts/Roboto-Medium500.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular400';
+    src: url('./fonts/Roboto-Regular400.ttf') format('truetype');
+}

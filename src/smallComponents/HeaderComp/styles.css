@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-logo-div {
+    width: 43px;
+    height: 43px;
+    background: #9b63fc;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.page-name {
+    font-family: 'Roboto-Medium500';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
