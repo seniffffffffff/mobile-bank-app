@@ -1,0 +1,63 @@
+.account-content {
+    display: flex;
+    flex-direction: column;
+    color: #fafafa;
+    height: 167px;
+    width: 167px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.total-balance {
+    padding-top: 23px;
+    font-family: 'Roboto-Medium500';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.full-balance {
+    margin-top: 14px;
+    font-family: 'Roboto-Bold700';
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+
+.pd-left {
+    padding-left: 22px;
+}
+
+.account-number-div {
+    z-index: 2;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    padding: 14px 0 14px 21px;
+    border-radius: 10px 10px 0px 0px;
+    background: #fafafa;
+    font-family: 'Roboto-Regular400';
+}
+
+.card-logo-div {
+    margin-right: 8px;
+}
+
+.card-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-account {
+    font-family: 'Roboto-Regular400';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.card-num {
+    font-size: 12px;
+    line-height: 14px;
+    color: #a3a3a3;
+}

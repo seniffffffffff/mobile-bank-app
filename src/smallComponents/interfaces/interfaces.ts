@@ -1,3 +1,11 @@
+export interface PageName {
+    pageName: string
+}
+
+export interface HeaderProps {
+    pageName: PageName
+}
+
 export interface CardInfo {
     cardBalance: string
     cardNumber: string
@@ -18,4 +26,18 @@ export interface TransactionInfo {
 
 export interface TransactionsProps {
     transaction: TransactionInfo
+}
+
+export interface BankAccountInfo {
+    cardBalance: string
+    cardNumber: string
+    id: number
+}
+
+export interface BankAccountProps {
+    bankAccountInfo: BankAccountInfo
+}
+
+export interface SectionProps {
+    sectionName: string
 }

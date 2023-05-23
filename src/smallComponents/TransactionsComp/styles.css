@@ -1,31 +1,6 @@
-.transactions-div {
-    /* position: absolute; */
+.section-div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 100px;
-}
-.transactions-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 24px;
-}
-.transactions-article {
-    font-family: 'Roboto-Medium500';
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
-}
-
-.transactions-filter:hover {
-    cursor: pointer;
-    color: #3b3a3a;
-}
-
-.text-gray {
-    font-family: 'Roboto-Regular400';
-    font-size: 12px;
-    line-height: 14px;
-    color: #a3a3a3;
+    margin-top: 32px;
 }
