@@ -1,5 +1,7 @@
+import AnalyticsComp from '../../smallComponents/AnalyticsComp/AnalyticsComp'
 import CardBalanceComp from '../../smallComponents/CardBalanceComp/CardBalanceComp'
 import HeaderComp from '../../smallComponents/HeaderComp/HeaderComp'
+import MenuComp from '../../smallComponents/MenuComp/MenuComp'
 import TransactionsComp from '../../smallComponents/TransactionsComp/TransactionsComp'
 import { CardInfo } from '../../smallComponents/interfaces/interfaces'
 import './styles.css'
@@ -10,12 +12,14 @@ const HomeComp: React.FC = () => {
         cardNumber: '2544 7545 3785 1023',
     }
     return (
-        <div className="home-wrapper">
-            <div className="home-div">
-                <HeaderComp />
+        <div className="content-wrapper">
+            <div className="content-div">
+                <HeaderComp pageName="Home" />
                 <CardBalanceComp cardInfo={cardInfo} />
+                <AnalyticsComp />
                 <TransactionsComp />
             </div>
+            <MenuComp />
         </div>
     )
 }

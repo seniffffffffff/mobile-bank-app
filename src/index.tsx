@@ -27,7 +27,7 @@ const BrowserRouter = createBrowserRouter([
         element: <HomeComp />,
     },
     {
-        path: '/Expenses',
+        path: '/expenses',
         element: <ExpensesComp />,
     },
     {

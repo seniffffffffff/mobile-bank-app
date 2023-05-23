@@ -1,0 +1,24 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.section-article {
+    font-family: 'Roboto-Medium500';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.section-filter:hover {
+    cursor: pointer;
+    color: #3b3a3a;
+}
+
+.text-gray {
+    font-family: 'Roboto-Regular400';
+    font-size: 12px;
+    line-height: 14px;
+    color: #a3a3a3;
+}

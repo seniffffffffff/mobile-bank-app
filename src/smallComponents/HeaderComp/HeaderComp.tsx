@@ -1,18 +1,19 @@
 import userLogo from '../../assets/user.png'
 import NotificationIcon from '../../icons/NotificationIcon'
+import { PageName } from '../interfaces/interfaces'
 import './styles.css'
-const HeaderComp: React.FC = ({ pageName }: any) => {
+const HeaderComp: React.FC<PageName> = ({ pageName }) => {
     return (
-        <footer className="footer">
+        <header className="footer">
             <div className="user-logo-div">
                 <img src={userLogo} alt="" className="user-logo" />
             </div>
             {/* {pageName} */}
-            <h3 className="page-name">Home</h3>
+            <h3 className="page-name">{pageName}</h3>
             <div className="notifications-div pointer">
                 <NotificationIcon />
             </div>
-        </footer>
+        </header>
     )
 }
 

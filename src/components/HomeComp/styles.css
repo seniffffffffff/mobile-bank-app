@@ -1,14 +1,18 @@
-.home-wrapper {
-}
-
-.home-div {
+.content-wrapper {
     width: 414px;
     height: 896px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
     margin-top: 20px;
-    padding: 46px 30px 43px 30px;
+    /* padding: 46px 30px 43px 30px; */
     background: #ffffff;
     border-radius: 30px;
+}
+
+.content-div {
+    position: relative;
+    /* width: 414px;*/
+    height: 806px;
+    display: flex;
+    padding: 46px 30px 0px 30px;
+    flex-direction: column;
+    justify-content: space-between;
 }

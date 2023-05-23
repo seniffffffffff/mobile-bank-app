@@ -10,8 +10,6 @@ const CardBalanceComp: React.FC<CardProps> = ({ cardInfo }) => {
         return cardNumber.replace(/\s/g, '   ')
     }
 
-    console.log(cardNumberFormater(cardNumber))
-
     return (
         <div className="card-content-wrapper">
             <div className="rear-div"></div>

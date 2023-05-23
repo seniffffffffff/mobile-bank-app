@@ -1,10 +1,11 @@
 import React from 'react'
 import './styles.css'
-import { TransactionInfo, TransactionsProps } from '../interfaces/interfaces'
+import { TransactionInfo } from '../interfaces/interfaces'
 
 import nikeLogo from '../../assets/nikeLogo.png'
 import pumaLogo from '../../assets/pumaLogo.png'
 import TransactionComp from '../TransactionComp/TransactionComp'
+import SectionComp from '../SectionComp/SectionComp'
 
 const TransactionsComp: React.FC = () => {
     const transactionsList: TransactionInfo[] = [
@@ -26,13 +27,13 @@ const TransactionsComp: React.FC = () => {
         },
     ]
     return (
-        <div className="transactions-div">
-            <div className="transactions-title">
-                <h3 className="transactions-article">Transactions</h3>
-                <div className="transactions-filter text-gray">View All</div>
-            </div>
+        <div className="section-div">
+            <SectionComp sectionName={'Transaction'} />
             {transactionsList.map((transaction) => (
-                <TransactionComp transaction={transaction} />
+                <TransactionComp
+                    key={transaction.id}
+                    transaction={transaction}
+                />
             ))}
         </div>
     )
