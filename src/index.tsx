@@ -1,11 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import reportWebVitals from './reportWebVitals'
-import {
-    createBrowserRouter,
-    RouterProvider,
-    useNavigate,
-} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 
 import HomeComp from './components/HomeComp/HomeComp'
 import ExpensesComp from './components/ExpensesComp/ExpensesComp'
@@ -14,12 +10,6 @@ import './index.css'
 import './font.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
-
-const DefaultRedirect = () => {
-    const navigate = useNavigate()
-    navigate('/home')
-    return null
-}
 
 const BrowserRouter = createBrowserRouter([
     {
@@ -31,8 +21,8 @@ const BrowserRouter = createBrowserRouter([
         element: <ExpensesComp />,
     },
     {
-        path: '*',  
-        element: <DefaultRedirect />,
+        path: '*',
+        element: <Navigate to="/home" />,
     },
 ])
 
