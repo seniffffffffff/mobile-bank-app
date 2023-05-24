@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
+    cursor: pointer;
 }
 
 .bar-chart {
@@ -32,4 +33,5 @@
 
 .bg-hover {
     background: #8234f8;
+    transition: background 0.7s ease-in-out;
 }
