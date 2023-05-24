@@ -1,0 +1,85 @@
+.expens-div {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    border-radius: 21px;
+    padding: 20px 14px 0 14px;
+}
+.expens-info {
+}
+
+.expens-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+}
+
+.transaction-text-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date-div {
+    margin-left: 90px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.spend-content {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.spend-div {
+    margin-right: 24px;
+}
+
+.budget-div {
+    margin-right: 64px;
+}
+
+.mr-bot-16 {
+    margin-bottom: 16px;
+}
+
+.grey-text-reg {
+    font-family: 'Roboto-Regular400';
+    font-size: 16px;
+    line-height: 19px;
+    color: #615c5c;
+}
+
+.black-text-reg {
+    font-family: 'Roboto-Medium500';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.green-text {
+    font-family: 'Roboto-Medium500';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2bb272;
+}
+
+.transaction-name {
+    margin-bottom: 4px;
+    font-family: 'Roboto-Medium500';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}

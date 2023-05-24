@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import AddIcon from '../../icons/AddIcon'
 import HomeIcon from '../../icons/HomeIcon'
@@ -27,15 +26,6 @@ const MenuComp = () => {
                     <SettingsIcon />
                 </Link>
             </div>
-
-            {/* <div className="container">
-                <div className="content">
-                    <h1>Контент страницы</h1>
-                </div>
-                <div className="footer">
-                    <p>Это футер страницы</p>
-                </div>
-            </div> */}
         </nav>
     )
 }
