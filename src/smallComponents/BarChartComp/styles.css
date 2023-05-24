@@ -1,0 +1,35 @@
+.bar-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.bar-chart {
+    width: 30px;
+    border-radius: 6px 6px 0px 0px;
+    background: #fafafa;
+}
+.month-expens {
+    margin-bottom: 4px;
+    font-family: 'Roboto-Regular400';
+    font-size: 10px;
+    line-height: 12px;
+    color: #a3a3a3;
+}
+
+.month-div {
+    margin-top: 16px;
+    font-family: 'Roboto-Regular400';
+    font-size: 13px;
+    line-height: 15px;
+    color: #a3a3a3;
+}
+
+.text-hover {
+    color: #8234f8;
+}
+
+.bg-hover {
+    background: #8234f8;
+}

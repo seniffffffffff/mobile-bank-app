@@ -8,7 +8,6 @@ const HeaderComp: React.FC<PageName> = ({ pageName }) => {
             <div className="user-logo-div">
                 <img src={userLogo} alt="" className="user-logo" />
             </div>
-            {/* {pageName} */}
             <h3 className="page-name">{pageName}</h3>
             <div className="notifications-div pointer">
                 <NotificationIcon />

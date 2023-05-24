@@ -41,3 +41,32 @@ export interface BankAccountProps {
 export interface SectionProps {
     sectionName: string
 }
+
+export interface ExpensInfo {
+    nameExpens: string
+    totalSpend: string
+    totalBudget: string
+    percentageSpent: number
+    date: string
+    logo: string
+    id: number
+}
+
+export interface ExpensProps {
+    expensInfo: ExpensInfo
+}
+
+export interface LinearProgressValue {
+    progressValue: number
+}
+
+export interface MonthInCome {
+    month: string
+    expens: number
+    id: number
+}
+
+export interface MonthInComeProps {
+    monthInCome: MonthInCome
+    maxValue: number
+}

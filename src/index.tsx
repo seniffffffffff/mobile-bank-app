@@ -31,7 +31,7 @@ const BrowserRouter = createBrowserRouter([
         element: <ExpensesComp />,
     },
     {
-        path: '*',
+        path: '*',  
         element: <DefaultRedirect />,
     },
 ])

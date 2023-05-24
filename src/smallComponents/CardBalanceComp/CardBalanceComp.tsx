@@ -7,8 +7,10 @@ const CardBalanceComp: React.FC<CardProps> = ({ cardInfo }) => {
     const { cardBalance, cardNumber } = cardInfo
 
     const cardNumberFormater = (cardNumber: string): string => {
-        return cardNumber.replace(/\s/g, '   ')
+        const res = cardNumber.replace(/\s/g, '')
+        return res
     }
+    console.log(cardNumberFormater(cardNumber))
 
     return (
         <div className="card-content-wrapper">
@@ -25,8 +27,13 @@ const CardBalanceComp: React.FC<CardProps> = ({ cardInfo }) => {
                 </div>
                 <div className="card-number-div">
                     <div className="numbers">
-                        {/* fix trimed string !!!!*/}
-                        {cardNumberFormater(cardNumber)}
+                        {cardNumberFormater(cardNumber).slice(0, 4)}
+                        &nbsp;&nbsp;&nbsp;
+                        {cardNumberFormater(cardNumber).slice(4, 8)}
+                        &nbsp;&nbsp;&nbsp;
+                        {cardNumberFormater(cardNumber).slice(8, 12)}
+                        &nbsp;&nbsp;&nbsp;
+                        {cardNumberFormater(cardNumber).slice(12, 16)}
                     </div>
                     <MasterCardIcon />
                 </div>
