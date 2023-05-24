@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mobile-bank-app/static/css/main.51b59b86.css",
+    "main.js": "/mobile-bank-app/static/js/main.ea69d49b.js",
+    "static/js/787.4c297764.chunk.js": "/mobile-bank-app/static/js/787.4c297764.chunk.js",
+    "static/media/Roboto-Medium500.ttf": "/mobile-bank-app/static/media/Roboto-Medium500.2699aefade440f0e338f.ttf",
+    "static/media/Roboto-Regular400.ttf": "/mobile-bank-app/static/media/Roboto-Regular400.160d7a6ac26376e5e977.ttf",
+    "static/media/Roboto-Bold700.ttf": "/mobile-bank-app/static/media/Roboto-Bold700.35eab922fdbe4b5324d4.ttf",
+    "index.html": "/mobile-bank-app/index.html",
+    "main.51b59b86.css.map": "/mobile-bank-app/static/css/main.51b59b86.css.map",
+    "main.ea69d49b.js.map": "/mobile-bank-app/static/js/main.ea69d49b.js.map",
+    "787.4c297764.chunk.js.map": "/mobile-bank-app/static/js/787.4c297764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51b59b86.css",
+    "static/js/main.ea69d49b.js"
+  ]
+}
